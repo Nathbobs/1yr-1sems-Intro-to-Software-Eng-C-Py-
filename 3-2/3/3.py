@@ -1,0 +1,8 @@
+print('put in 5 integer numbers')
+x = input()
+a = input()
+b = input()
+c = input()
+d = input()
+finalResult = int(x) * int(a)/int(b) + int(c) - int(d)
+print(finalResult)

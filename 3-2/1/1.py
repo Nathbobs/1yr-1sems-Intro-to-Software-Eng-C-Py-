@@ -1,0 +1,6 @@
+print('what are the number of cars in this parking lot?')
+cars = input()
+print('what are the number of buses in this parking lot?')
+buses = input()
+vehicles = int(cars) + int(buses)
+print('The total number of vehicles in this parking lot is :' + str(vehicles))

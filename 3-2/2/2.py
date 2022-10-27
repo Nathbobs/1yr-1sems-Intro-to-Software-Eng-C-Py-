@@ -1,0 +1,13 @@
+print('Throw me the first string')
+str1 = input()
+print('Throw me the second string')
+str2 = input()
+print('Throw me the third string')
+str3 = input()
+print('Type in 3 numbers, integers or decimals')
+num1 = input()
+num2 = input()
+num3 = input()
+totalString = str1 + str2 + str3
+print(str1 + str2 + str3)
+print(float(num1)+ float(num2) + float(num3))

@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+printLine(int n)
+{
+    int i, j ;
+    for (i = 1; i <= n; i++){
+        for (j = 1; j <=i; j++){
+            printf("%d ", j);
+        }
+        printf("\n");
+    }
+    for (i = 1; i <= n; i++){
+        for (j = 1; j <= n-i+1 ; j++){
+            printf("%d ", j);
+        }
+        printf("\n");
+    }
+}
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    printf("%d", printLine(n));
+
+    return 0;
+
+}

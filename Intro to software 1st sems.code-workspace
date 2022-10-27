@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"AP1.C": "cpp"
+		},
+		"C_Cpp.errorSquiggles": "EnabledIfIncludesResolve"
+	}
+}
